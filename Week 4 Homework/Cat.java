@@ -13,13 +13,13 @@ public class Cat extends Animal {
     public Cat (int run, double jump) {
     }
     public boolean canRun(int run){
-        return run < runDistance ? true : false;
+        return run <= runDistance ? true : false;
     }
     public boolean canJump(double jump){
-        return jump < jumpHeight ? true : false;
+        return jump <= jumpHeight ? true : false;
     }
     public boolean canSwim(int swim){
-        return swim < SwimDistance ? true : false;
+        return swim <= SwimDistance ? true : false;
     }
 
 }
