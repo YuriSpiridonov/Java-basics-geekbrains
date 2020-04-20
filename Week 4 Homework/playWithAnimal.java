@@ -4,8 +4,8 @@ public class playWithAnimal {
         Dog dog = new Dog ( "Sharick", 505, 12,9); //задаем имя сабаки и нормативы к выполнению
 
         // если хотим проверить созданного кота с желаемыми характеристикми
-        System.out.println("swim: " + cat.canRun(cat.run));
-        System.out.println("swim: " + cat.canJump(cat.jump));
+        System.out.println("run: " + cat.canRun(cat.run));
+        System.out.println("jump: " + cat.canJump(cat.jump));
         System.out.println("swim: " + cat.canSwim(cat.swim)); // не успел разобраться с тем чтобы было сообщение "Извините, не умею плавать", а не просто фолс.
         // если хотим проверить случайную характеристику абстрактного кота
         System.out.println("run: " + cat.canRun(201));
